@@ -6,7 +6,7 @@
 /*   By: iboukhss <iboukhss@student.42luxe...>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 13:07:21 by iboukhss          #+#    #+#             */
-/*   Updated: 2023/11/27 13:08:47 by iboukhss         ###   ########.fr       */
+/*   Updated: 2023/11/27 14:14:31 by iboukhss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,4 @@
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
-}
-
-int	main(void)
-{
-	ft_putchar('x');
 }

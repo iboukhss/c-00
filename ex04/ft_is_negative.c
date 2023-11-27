@@ -6,7 +6,7 @@
 /*   By: iboukhss <iboukhss@student.42luxe...>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 13:40:48 by iboukhss          #+#    #+#             */
-/*   Updated: 2023/11/27 13:45:05 by iboukhss         ###   ########.fr       */
+/*   Updated: 2023/11/27 14:15:23 by iboukhss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,4 @@ void	ft_is_negative(int n)
 	{
 		write(1, &"P", 1);
 	}
-}
-
-int	main(void)
-{
-	ft_is_negative(0);
 }

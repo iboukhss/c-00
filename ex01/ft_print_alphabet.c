@@ -6,7 +6,7 @@
 /*   By: iboukhss <iboukhss@student.42luxe...>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 13:12:11 by iboukhss          #+#    #+#             */
-/*   Updated: 2023/11/27 13:16:18 by iboukhss         ###   ########.fr       */
+/*   Updated: 2023/11/27 14:14:50 by iboukhss         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,4 @@ void	ft_print_alphabet(void)
 		write(1, &ltr, 1);
 		++ltr;
 	}
-}
-
-int	main(void)
-{
-	ft_print_alphabet();
 }
